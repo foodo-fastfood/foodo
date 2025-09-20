@@ -34,8 +34,8 @@ const items = [
 
   // { id: 30, name: 'کوکا کولا (شیشه‌ای)', cat: 'drinks', desc: 'نوشیدنی خنک', price: 18000, img: './img/3.png', spicy: false },
 
-  { id: 30, name: 'سیب ساده', cat: 'sides', desc: 'سیب زمینی سرخ شده، ادویه مخصوص، سس مخصوص', price: 72000, img: './img/1.png', spicy: false },
-  { id: 31, name: 'سیب فودو', cat: 'sides', desc: 'سیب زمینی سرخ شده، ژامبون مرغ و گوشت، پنیر گودا، ادویه مخصوص، سس مخصوص', price: 72000, img: './img/1.png', spicy: false },
+  { id: 30, name: 'سیب ساده', cat: 'sides', desc: 'سیب زمینی سرخ شده، ادویه مخصوص، سس مخصوص', price: 98000, img: './img/1.png', spicy: false },
+  { id: 31, name: 'سیب فودو', cat: 'sides', desc: 'سیب زمینی سرخ شده، ژامبون مرغ و گوشت، پنیر گودا، ادویه مخصوص، سس مخصوص', price: 128000, img: './img/1.png', spicy: false },
   { id: 32, name: 'سالاد ماکارونی', cat: 'sides', desc: '', price: '', img: './img/6.png', spicy: false }
 ];
 
