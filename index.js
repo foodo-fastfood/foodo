@@ -42,6 +42,11 @@ const items = [
   { id: 34, name: 'بندری ویژه', cat: 'Sandwich', desc: 'سوسیس بندری، قارچ، پنیر، کاهو، گوجه، خیارشور، سس مخصوص، نان باگت', price: 235000, img: './img/2.png', spicy: true },
   { id: 35, name: 'تک لقمه', cat: 'Sandwich', desc: 'سوسیس گوشت، قارچ، پنیر، خلال چیپس، سس مخصوص،نان باگت ', price: 235000, img: './img/2.png', spicy: false },
   { id: 36, name: 'تک لقمه ویژه', cat: 'Sandwich', desc: 'سوسیس گوشت، قارچ، پنیر، خلال چیپس، سس مخصوص،نان باگت ', price: 235000, img: './img/2.png', spicy: false },
+
+  { id: 30, name: 'سیب ساده', cat: 'sides', desc: 'سیب زمینی سرخ شده، ادویه مخصوص، سس مخصوص', price: 98000, img: './img/1.png', spicy: false },
+  { id: 31, name: 'سیب فودو', cat: 'sides', desc: 'سیب زمینی سرخ شده، ژامبون مرغ و گوشت، پنیر گودا، ادویه مخصوص، سس مخصوص', price: 128000, img: './img/1.png', spicy: false },
+  { id: 32, name: 'سالاد ماکارونی', cat: 'sides', desc: '', price: '', img: './img/6.png', spicy: false }
+
 ];
 
 
