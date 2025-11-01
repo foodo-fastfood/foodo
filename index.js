@@ -10,12 +10,12 @@ const items = [
   { id: 9, name: 'چیکن میت', cat: 'burger', desc: 'نان برگر،همبرگر ذغالی،فیله گریل،سس مخصوص، کاهو،گوجه ،خیارشور', price: 310000, img: './img/4.jpg', spicy: false },
 
   { id: 10, name: 'اسنک فودو', cat: 'Snack', desc: 'نان تست،میکس ژامبون مرغ و گوشت،پنیر موزارلا،ذرت،فلفل دلمه ای', price: 110000, img: './img/3.jpg', spicy: false },
-  { id: 11, name: 'اسنک رویال', cat: 'Snack', desc: 'نان تست، میکس ژامبون مرغ و گوشت و پپرونی،پنیر موزارلا،ذرت،فلفل دلمه ای', price: 135000, img: './img/3.jpg', spicy: false },
-  { id: 12, name: 'اسنک پپرونی', cat: 'Snack', desc: 'نان تست،کالباس پپرونی،پنیر موزارلا،ذرت،فلفل دلمه ای', price: 125000, img: './img/3.jpg', spicy: true },
-  { id: 13, name: 'اسنک اسپایسی', cat: 'Snack', desc: 'نان تست،کالباس پپرونی،سس تند هالوپینو ،پنیر موزارلا،ذرت،فلفل دلمه ای', price: 145000, img: './img/3.jpg', spicy: true },
-  { id: 14, name: 'اسنک بیف', cat: 'Snack', desc: 'نان تست،گوشت اسلایسی طعم دار،پنیر موزارلا،ذرت،قارچ،فلفل دلمه ای', price: 165000, img: './img/3.jpg', spicy: false },
-  { id: 15, name: 'اسنک چیکن', cat: 'Snack', desc: 'نان تست،مرغ مرینیت شده،پنیر موزارلا،ذرت،قارچ،فلفل دلمه ای', price: 145000, img: './img/3.jpg', spicy: false },
-  { id: 16, name: 'اسنک میکس', cat: 'Snack', desc: 'نان تست،مرغ مرینیت شده،گوشت اسلایسی طعم دار،پنیر موزارلا،ذرت،قارچر،فلفل دلمه ای', price: 160000, img: './img/3.jpg', spicy: false },
+  { id: 11, name: 'اسنک رویال', cat: 'Snack', desc: 'نان تست، میکس ژامبون مرغ و گوشت و پپرونی،پنیر موزارلا،ذرت،فلفل دلمه ای', price: 148000, img: './img/3.jpg', spicy: false },
+  { id: 12, name: 'اسنک پپرونی', cat: 'Snack', desc: 'نان تست،کالباس پپرونی،پنیر موزارلا،ذرت،فلفل دلمه ای', price: 138000, img: './img/3.jpg', spicy: true },
+  { id: 13, name: 'اسنک اسپایسی', cat: 'Snack', desc: 'نان تست،کالباس پپرونی،سس تند هالوپینو ،پنیر موزارلا،ذرت،فلفل دلمه ای', price: 158000, img: './img/3.jpg', spicy: true },
+  { id: 14, name: 'اسنک بیف', cat: 'Snack', desc: 'نان تست،گوشت اسلایسی طعم دار،پنیر موزارلا،ذرت،قارچ،فلفل دلمه ای', price: 185000, img: './img/3.jpg', spicy: false },
+  { id: 15, name: 'اسنک چیکن', cat: 'Snack', desc: 'نان تست،مرغ مرینیت شده،پنیر موزارلا،ذرت،قارچ،فلفل دلمه ای', price: 158000, img: './img/3.jpg', spicy: false },
+  { id: 16, name: 'اسنک میکس', cat: 'Snack', desc: 'نان تست،مرغ مرینیت شده،گوشت اسلایسی طعم دار،پنیر موزارلا،ذرت،قارچر،فلفل دلمه ای', price: 178000, img: './img/3.jpg', spicy: false },
 
   { id: 17, name: 'هات داگ', cat: 'Sandwich', desc: 'هات داگ،سس مخصوص، خلال چیپس،کاهو،گوجه،خیارشور،نان باگت', price: 145000, img: './img/2.png', spicy: false },
   { id: 18, name: 'هات داگ ویژه', cat: 'Sandwich', desc: 'هات داگ،قارچ ،پنیر مخصوص،خلال چیپس، سس مخصوص', price: 215000, img: './img/2.png', spicy: false },
@@ -24,16 +24,16 @@ const items = [
   { id: 21, name: 'چیکن گریل', cat: 'Sandwich', desc: 'فیله مرغ مرینیت شده، خلال چیپس،کاهو،گوجه،خیارشور،نان باگت', price: 225000, img: './img/2.png', spicy: false },
   { id: 22, name: 'رست بیف', cat: 'Sandwich', desc: 'گوشت اسلایسی طعم دار، قارچ، پنیر مخصوص، کاهو، گوجه، خیارشور، نان باگت', price: 245000, img: './img/2.png', spicy: false },
   { id: 23, name: 'بیف چیکن', cat: 'Sandwich', desc: 'گوشت اسلایسی طعم دار، فیله مرغ  ،قارچ، پنیر مخصوص،کاهو،گوجه،خیارشور،نان باگت', price: 235000, img: './img/2.png', spicy: false },
-  
+
   { id: 24, name: 'تُست فودو', cat: 'tork', desc: 'نان مخصوص،ژامبون مارتا،پنیر ورقه ای،ادویه ترکی', price: 155000, img: './img/5.jpg', spicy: false },
   { id: 25, name: 'تُست استانبول', cat: 'tork', desc: 'نان مخصوص،سوجوک ترکی،پنیر ورقه ای،ادویه ترکی', price: 185000, img: './img/5.jpg', spicy: false },
   { id: 26, name: 'تُست پپرونی', cat: 'tork', desc: 'نان مخصوص،پپرونی70%،پنیر ورقه ای،ادویه ترکی', price: 165000, img: './img/5.jpg', spicy: true },
   { id: 27, name: 'تُست بیف', cat: 'tork', desc: 'نان مخصوص،رست بیف،پنیر ورقه ای،قارچ،پیاز حلقه ای،ادویه ترکی', price: 220000, img: './img/5.jpg', spicy: false },
   { id: 28, name: 'تُست چیکن', cat: 'tork', desc: 'نان مخصوص،مرغ گریل،پنیر ورقه ای،قارچ،ادویه ترکی', price: 210000, img: './img/5.jpg', spicy: false },
   { id: 29, name: 'تُست میکس', cat: 'tork', desc: 'نان مخصوص،رست بیف،مرغ گریل،پنیر ورقه ای،قارچ،ادویه ترکی', price: 215000, img: './img/5.jpg', spicy: false },
-  
+
   // { id: 30, name: 'کوکا کولا (شیشه‌ای)', cat: 'drinks', desc: 'نوشیدنی خنک', price: 18000, img: './img/3.png', spicy: false },
-  
+
   { id: 30, name: 'سیب ساده', cat: 'sides', desc: 'سیب زمینی سرخ شده، ادویه مخصوص، سس مخصوص', price: 98000, img: './img/1.jpg', spicy: false },
   { id: 31, name: 'سیب فودو', cat: 'sides', desc: 'سیب زمینی سرخ شده، ژامبون مرغ و گوشت، پنیر گودا، ادویه مخصوص، سس مخصوص', price: 128000, img: './img/12.jpg', spicy: false },
   // { id: 32, name: 'سالاد ماکارونی', cat: 'sides', desc: '', price: '', img: './img/6.png', spicy: false },
